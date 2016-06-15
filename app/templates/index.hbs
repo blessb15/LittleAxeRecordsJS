@@ -1,17 +1,20 @@
-<h1> Records </h1>
-  {{log model}}
-  {{debugger}}
-<ul>
-
+<div class="row">
+  <div class="div col-md-8">
+    <h1>Records:</h1>
   {{#each model.records as |record|}}
-
-
-  <div class="col-xs-4">
-    <img src={{record.image}} width="200px">
-    <h4>{{record.title}}</h4>
-  </div>
+    {{#link-to 'record' record.id}}<div class="col-md-4">
+      <img src={{record.image}} width="200px">
+      <br>
+      <h4>{{record.title}}</h4>
+      <br>
+    </div>{{/link-to}}
   {{/each}}
+    </div>
 
-</ul>
+    <div class="div col-md-4">
+      <h1>Cart:</h1>
+      {{display-cart record=model}}
+    </div>
+</div>
 
 <!-- {{#link-to 'record' record.id}} {{/link-to}}<br> -->

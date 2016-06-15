@@ -24,3 +24,21 @@
  .container-fluid{
 
  }
+
+.nav{
+  background-color: lightgray;
+  height: 65px;
+  border: 10px;
+  border-width: medium;
+  border-color: gray;
+  padding-left: 20px;
+  padding-top: 10px
+}
+
+.record-pic{
+  margin-left: 20px;
+}
+
+.record-info{
+  margin-left: -10px;
+}

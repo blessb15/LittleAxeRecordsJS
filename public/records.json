@@ -1,14 +1,20 @@
 {"records":  [{
-  "id": 1,
+  "id": 0,
   "title": "Ural Thomas & The Pain 2xLP",
-  "image": "../ural.jpeg"
+  "image": "../ural.jpeg",
+  "info": "(2-LP set) At last! A new LP by Portland's own Ural Thomas and the Pain! Ural has been working hard since the late 1950's making soul music. This LP is a showcase for his new band, the Pain, as well as an overview of his storied career. Record A features Ural and the Pain ripping through some of their best material. A full tight soul band, in the tradition, backing up a truly great soul singer with his powers still intact. Record B features a career overview of Ural's work - from the early 1960's through to 1970. Rocking R & B, soulful ballads, and an 'experimental' track. Also included is a booklet with archival photos and a long interview with Ural. ",
+  "price": "$20.00"
+}, {
+  "id": 1,
+  "title": "SS-034 Azna de L’Ader – Zabaya",
+  "image": "../azna.jpeg",
+  "info": "Archival recordings from Niger’s seminal pscyh-rock outfit, Azna de L’Ader. Intense shrieking solos, fuzzed out guitar, and hypnotic crashing drums. Equal parts Western rock and Bori possession music, West Africa’s answer to Zamrock. Playing in their home country for 40 years, but living in a remote region, this is the first ever official release. ",
+  "price": "$14.00"
 }, {
   "id": 2,
-  "title": "SS-034 Azna de L’Ader – Zabaya",
-  "image": "../azna.jpeg"
-}, {
-  "id": 3,
   "title": "LAC-044 Lejos Nube Cantando: Huaynos y folcloricas del Peru",
-  "image": "../lejos.png"
+  "image": "../lejos.png",
+  "info": "New Little Axe cassette - A compilation of Peruvian folk music, mostly Huaynos. Current deep obsession.",
+  "price": "$3.00"
 }]
 }

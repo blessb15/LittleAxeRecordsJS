@@ -1,1 +1,21 @@
-{{yield}}
+{{log record}}
+<div class="row">
+  <div class="col-md-6 record-pic">
+    <img src={{record.image}} width="400px">
+  </div>
+
+  <div class="col-md-4 record-info">
+    <h2>{{record.title}}</h2>
+    <br>
+    <h5>{{record.info}}</h5>
+    <br>
+    <h4>{{record.price}}</h4>
+    <br>
+    <button class="btn btn-success" {{action 'addToCart' record}}>Add to Cart</button>
+  </div>
+
+  <div class="div col-md-4">
+    <h1>Cart:</h1>
+    {{display-cart}}
+  </div>
+</div>
