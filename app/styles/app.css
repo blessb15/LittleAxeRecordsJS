@@ -1,0 +1,26 @@
+.center{
+  text-align: center;
+}
+ #title{
+   text-align: center;
+ }
+
+ .navbar-brand{
+   padding-bottom: 30px;
+   padding-top: none;
+ }
+
+ .navbar-collapse{
+   margin: 12px;
+ }
+
+ .jumbotron{
+   background-image: url('../little-axe-storefront.jpg');
+   background-position: -% 50%
+   background-size:cover;
+   color: black;
+   padding-bottom: none;
+ }
+ .container-fluid{
+
+ }

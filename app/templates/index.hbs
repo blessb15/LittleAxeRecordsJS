@@ -1,0 +1,17 @@
+<h1> Records </h1>
+  {{log model}}
+  {{debugger}}
+<ul>
+
+  {{#each model.records as |record|}}
+
+
+  <div class="col-xs-4">
+    <img src={{record.image}} width="200px">
+    <h4>{{record.title}}</h4>
+  </div>
+  {{/each}}
+
+</ul>
+
+<!-- {{#link-to 'record' record.id}} {{/link-to}}<br> -->
