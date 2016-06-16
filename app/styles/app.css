@@ -21,9 +21,6 @@
    color: black;
    padding-bottom: none;
  }
- .container-fluid{
-
- }
 
 .nav{
   background-color: lightgray;
@@ -41,4 +38,29 @@
 
 .record-info{
   margin-left: -10px;
+}
+
+.index-img{
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.navbar-btn{
+  background-color: #fbf7f7;
+  margin-bottom: 10px;
+}
+.contact{
+  margin-top: 6px;
+  padding-top: 4px;
+  margin-left: 10px;
+  margin-right: 20px;
+  float: none;
+}
+
+.remove-btn{
+  border-radius: 90px;
+  margin-bottom: 12px;
+  background-color: #a74545;
+  opacity: 0.95;
+  margin-left: 15px;
 }
