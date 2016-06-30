@@ -1,7 +1,6 @@
 # Little-axe
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Web page is a re-done version of the website http://www.littleaxerecords.com/
 
 ## Prerequisites
 
